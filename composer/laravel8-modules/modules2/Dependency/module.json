@@ -1,0 +1,13 @@
+{
+    "name": "Dependency",
+    "alias": "dependency",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Dependency\\Providers\\DependencyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

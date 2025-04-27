@@ -1,0 +1,13 @@
+{
+    "name": "WebTerminal",
+    "alias": "webterminal",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\WebTerminal\\Providers\\WebTerminalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

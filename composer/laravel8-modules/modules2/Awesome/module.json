@@ -1,0 +1,13 @@
+{
+    "name": "Awesome",
+    "alias": "awesome",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Awesome\\Providers\\AwesomeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

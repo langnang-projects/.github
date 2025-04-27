@@ -1,0 +1,13 @@
+{
+    "name": "Software",
+    "alias": "software",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Software\\Providers\\SoftwareServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

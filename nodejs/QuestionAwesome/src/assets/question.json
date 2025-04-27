@@ -1,0 +1,170 @@
+[
+    {
+        "title": "4 + 13",
+        "description": "",
+        "content": "4 + 13 = _____\n4 + 14 = ____\n4 + 15 = ____",
+        "difficulty": 0,
+        "tags": [
+            "math"
+        ],
+        "questions": [
+            {
+                "title": "title__1",
+                "type": "completion",
+                "answer": 17,
+                "_answer": "",
+                "explain": "无"
+            },
+            {
+                "title": "title__2",
+                "type": "single-choice",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": 17,
+                "_answer": "",
+                "explain": "无"
+            },
+            {
+                "title": "title__3",
+                "type": "multi-choice",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": [
+                    17,
+                    18
+                ],
+                "_answer": [],
+                "explain": "无"
+            },
+            {
+                "title": "title__4",
+                "type": "expository",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": [
+                    17,
+                    18
+                ],
+                "_answer": "",
+                "explain": "无"
+            },
+            {
+                "title": "",
+                "type": "code",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": [
+                    17,
+                    18
+                ],
+                "_answer": "```language\n\n```",
+                "explain": "无"
+            }
+        ],
+        "explanation": "```json\n{}\n```"
+    },
+    {
+        "title": "9 + 16",
+        "description": "",
+        "content": "9 + 16 = _____\n4 + 14 = ____\n4 + 15 = ____",
+        "difficulty": 0,
+        "tags": [
+            "math"
+        ],
+        "questions": [
+            {
+                "title": "title__1",
+                "type": "completion",
+                "answer": 17,
+                "_answer": "",
+                "explain": "无"
+            },
+            {
+                "title": "title__2",
+                "type": "single-choice",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": 17,
+                "_answer": "",
+                "explain": "无"
+            },
+            {
+                "title": "title__3",
+                "type": "multi-choice",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": [
+                    17,
+                    18
+                ],
+                "_answer": [],
+                "explain": "无"
+            },
+            {
+                "title": "title__4",
+                "type": "expository",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": [
+                    17,
+                    18
+                ],
+                "_answer": "",
+                "explain": "无"
+            },
+            {
+                "title": "",
+                "type": "code",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "answer": [
+                    17,
+                    18
+                ],
+                "_answer": "```language\n\n```",
+                "explain": "无"
+            }
+        ],
+        "explanation": "```json\n{}\n```"
+    }
+]

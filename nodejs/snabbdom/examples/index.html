@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+
+  <body>
+    <button id="btn">Patch</button>
+    <div id="container">Container</div>
+    <script src="./../dist/snabbdom.js"></script>
+    <script>
+      const { h, patch } = Snabbdom;
+      const container = document.getElementById("container");
+      const btn = document.getElementById("btn");
+      // console.log("🚀 ~ file: index.js:5 ~ container", container);
+      // const vnode01 = h("div", {}, "Hello World");
+      // console.log("🚀 ~ file: index.js:6 ~ vnode01", vnode01);
+      // patch(container, vnode01);
+      // // console.log("🚀 ~ file: index.js:6 ~ vnode01", vnode01);
+
+      // // const vnode02 = h("div", {}, "Welcome to Simple Sanbbdom");
+      // // console.log("🚀 ~ file: index.js:10 ~ vnode02", vnode02);
+      // // patch(vnode01, vnode02);
+      // // // console.log("🚀 ~ file: index.js:10 ~ vnode02", vnode02);
+
+      // const vnode03 = h("ul", {}, [h("li", { key: "A" }, "A"), h("li", { key: "B" }, "B"), h("li", { key: "C" }, "C"), h("li", { key: "D" }, "D"), h("li", { key: "E" }, "E"), h("li", { key: "F" }, "FF")]);
+      // console.log("🚀 ~ file: index.js:12 ~ vnode03", vnode03);
+
+      // const vnode04 = h("ul", {}, [h("li", { key: "A" }, "苹果"), h("li", {}, "西瓜"), h("li", {}, "番茄"), h("li", {}, "香蕉")]);
+      // console.log("🚀 ~ file: index.js:16 ~ vnode04", vnode04);
+      // patch(vnode01, vnode04);
+
+      // btn.onclick = () => {
+      //   patch(vnode04, vnode03);
+      // };
+
+      const example01 = h("div", {}, "文字");
+      const example02 = h("ul", {}, []);
+      const example03 = h("ul", {}, h("li", {}, "文字"));
+      const example04 = h("ul", {}, "文字");
+      const example05 = h("ul", {}, [h("li", { key: "A" }, "A"), h("li", { key: "B" }, "B"), h("li", { key: "C" }, "C"), h("li", { key: "D" }, "D"), h("li", { key: "E" }, "E")]);
+      const example06 = h("ul", {}, [
+        h("li", { key: "B" }, "B"),
+        h("li", { key: "D" }, "DDDD"),
+        h("li", { key: "C" }, "CCCC"),
+        h("li", { key: "F" }, "F"),
+        h("li", { key: "E" }, "EEE"),
+        h("li", { key: "A" }, "A"),
+      ]);
+      console.log({
+        container,
+        example01,
+        example02,
+        example03,
+        example04,
+        example05,
+        example06,
+      });
+      console.groupCollapsed();
+      patch(container, example01);
+      patch(example01, example02);
+      patch(example02, example03);
+      patch(example03, example04);
+      console.groupEnd();
+      patch(example04, example05);
+      btn.onclick = function () {
+        patch(example05, example06);
+      };
+    </script>
+  </body>
+</html>

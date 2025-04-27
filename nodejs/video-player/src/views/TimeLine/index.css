@@ -1,0 +1,33 @@
+.bilibili-anime--timeline__wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.bilibili-anime--timeline__wrapper .ant-row {
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  width: 1200px;
+  overflow-x: scroll;
+}
+.bilibili-anime--timeline__wrapper .ant-row::-webkit-scrollbar {
+  display: none;
+  /*ChromeSafari*/
+}
+.bilibili-anime--timeline__wrapper .ant-row .ant-col {
+  opacity: 0.6;
+}
+.bilibili-anime--timeline__wrapper .ant-row .ant-col.active {
+  opacity: 1;
+}
+.bilibili-anime--timeline__wrapper .anticon-left,
+.bilibili-anime--timeline__wrapper .anticon-right {
+  position: absolute;
+  top: 24px;
+  font-size: 96px;
+}
+.bilibili-anime--timeline__wrapper .anticon-left {
+  left: -38px;
+}
+.bilibili-anime--timeline__wrapper .anticon-right {
+  right: -38px;
+}/*# sourceMappingURL=index.css.map */

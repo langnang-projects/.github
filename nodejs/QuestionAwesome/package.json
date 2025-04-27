@@ -1,0 +1,72 @@
+{
+  "name": "question-awesome",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-regular-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "axios": "^0.18.0",
+    "core-js": "^3.6.4",
+    "element-ui": "^2.4.5",
+    "mavon-editor": "^2.9.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vue-wechat-title": "^2.0.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "^4.3.1",
+    "@vue/cli-plugin-vuex": "^4.3.1",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "sass": "^1.26.9",
+    "sass-loader": "^9.0.0",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-cli-plugin-fontawesome": "^0.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "<div style=\"text-align:center;\">\r     <img src=\"./src/assets/logo.png\" width=\"100\"/>\r </div>",
+  "main": "app.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langnang/QuestionAwesome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langnang/QuestionAwesome/issues"
+  },
+  "homepage": "https://github.com/langnang/QuestionAwesome#readme"
+}

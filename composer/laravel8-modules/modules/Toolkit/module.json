@@ -1,0 +1,13 @@
+{
+    "name": "Toolkit",
+    "alias": "toolkit",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Toolkit\\Providers\\ToolkitServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

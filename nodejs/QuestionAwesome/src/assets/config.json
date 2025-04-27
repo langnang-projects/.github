@@ -1,0 +1,429 @@
+{
+    "catalog_tree": {
+        "education": {
+            "id": 0,
+            "title": "教育",
+            "description": "测试用。。。",
+            "children": {
+                "chinese": {
+                    "id": 0,
+                    "title": "语文",
+                    "description": ""
+                },
+                "math": {
+                    "id": 0,
+                    "title": "数学",
+                    "description": ""
+                },
+                "english": {
+                    "id": 0,
+                    "title": "英语",
+                    "description": ""
+                },
+                "physics": {
+                    "id": 0,
+                    "title": "物理",
+                    "description": ""
+                },
+                "chemistry": {
+                    "id": 0,
+                    "title": "化学",
+                    "description": ""
+                },
+                "biology": {
+                    "id": 0,
+                    "title": "生物",
+                    "description": ""
+                },
+                "geography": {
+                    "id": 0,
+                    "title": "地理",
+                    "description": ""
+                },
+                "history": {
+                    "id": 0,
+                    "title": "历史",
+                    "description": ""
+                },
+                "arts": {
+                    "id": 0,
+                    "title": "美术",
+                    "description": ""
+                },
+                "sports": {
+                    "id": 0,
+                    "title": "体育",
+                    "description": ""
+                }
+            }
+        }
+    },
+    "_catalog_tree": {
+        "basic": {
+            "id": 0,
+            "title": "基础",
+            "description": "测试用。。。",
+            "_children": {
+                "child": {
+                    "id": 0,
+                    "title": "幼儿",
+                    "description": ""
+                },
+                "prechild": {
+                    "id": 0,
+                    "title": "学前",
+                    "description": ""
+                }
+            }
+        },
+        "education": {
+            "id": 0,
+            "title": "教育",
+            "description": "测试用。。。",
+            "_children": {
+                "Chinese": {
+                    "id": 0,
+                    "title": "语文",
+                    "description": ""
+                },
+                "Math": {
+                    "id": 0,
+                    "title": "数学",
+                    "description": ""
+                },
+                "English": {
+                    "id": 0,
+                    "title": "英语",
+                    "description": ""
+                },
+                "Physics": {
+                    "id": 0,
+                    "title": "物理",
+                    "description": ""
+                },
+                "Chemistry": {
+                    "id": 0,
+                    "title": "化学",
+                    "description": ""
+                },
+                "Biology": {
+                    "id": 0,
+                    "title": "生物",
+                    "description": ""
+                },
+                "Geography": {
+                    "id": 0,
+                    "title": "地理",
+                    "description": ""
+                },
+                "History": {
+                    "id": 0,
+                    "title": "历史",
+                    "description": ""
+                },
+                "Arts": {
+                    "id": 0,
+                    "title": "美术",
+                    "description": ""
+                },
+                "Sports": {
+                    "id": 0,
+                    "title": "体育",
+                    "description": ""
+                }
+            }
+        },
+        "professior": {
+            "id": 0,
+            "title": "专业",
+            "description": "测试用。。。",
+            "children": {},
+            "_children": [
+                "会计学",
+                "财务管理",
+                "经济学",
+                "信息管理与信息系统"
+            ]
+        },
+        "curriculum": {
+            "id": 0,
+            "title": "专业课程",
+            "description": "测试用。。。",
+            "children": {},
+            "_children": [
+                "C++",
+                "Java",
+                "C#",
+                "ASP.NET",
+                "ASP.NET Core",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        "certificate": {
+            "id": 0,
+            "title": "证书",
+            "description": "测试用。。。",
+            "children": {},
+            "_children": [
+                "英语四级",
+                "英语六级",
+                "英语八级",
+                "计算机二级"
+            ]
+        },
+        "interview": {
+            "id": 0,
+            "title": "面试",
+            "description": "测试用。。。",
+            "children": {
+                "frontend": {
+                    "id": 0,
+                    "title": "前端",
+                    "tag_list": []
+                },
+                "javascript": {
+                    "id": 0,
+                    "title": "JavaScript"
+                },
+                "css": {
+                    "id": 0,
+                    "title": "CSS"
+                },
+                "html": {
+                    "id": 0,
+                    "title": "HTML"
+                },
+                "vue": {
+                    "id": 0,
+                    "title": "Vue"
+                },
+                "backend": {
+                    "id": 0,
+                    "title": "后端"
+                }
+            },
+            "_children": [
+                "Web 前端",
+                "Web 后端",
+                "Vue",
+                "React",
+                "Angular",
+                "数据结构",
+                "算法"
+            ]
+        }
+    },
+    "question_list": [
+        {
+            "id": 5,
+            "title": "4 + 13",
+            "description": "",
+            "difficulty": 0,
+            "tags": [
+                "math"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "9 + 16",
+            "description": "",
+            "difficulty": 0,
+            "tags": [
+                "math"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "0.1 + 0.2 !== 0.3",
+            "description": "JavaScript 在计算某些浮点数的运算时会出现精度的丢失....",
+            "difficulty": 3,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        },
+        {
+            "id": 102,
+            "title": "测试003",
+            "description": "测试用。。。",
+            "difficulty": 1,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        },
+        {
+            "id": 103,
+            "title": "测试003",
+            "description": "测试用。。。",
+            "difficulty": 2,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        },
+        {
+            "id": 104,
+            "title": "测试004",
+            "description": "测试用。。。",
+            "difficulty": 3,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        },
+        {
+            "id": 105,
+            "title": "测试005",
+            "description": "测试用。。。",
+            "difficulty": 3,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        },
+        {
+            "id": 106,
+            "title": "测试006",
+            "description": "测试用。。。",
+            "difficulty": 4,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        },
+        {
+            "id": 107,
+            "title": "测试007",
+            "description": "测试用。。。",
+            "difficulty": 5,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        },
+        {
+            "id": 108,
+            "title": "测试008",
+            "description": "测试用。。。",
+            "difficulty": 5,
+            "tags": [
+                "frontend",
+                "javascript",
+                "css",
+                "html",
+                "vue"
+            ]
+        }
+    ],
+    "_question_list": [],
+    "group_list": [
+        {
+            "id": 0,
+            "key": "education",
+            "value": "教育",
+            "description": "测试用。。。"
+        },
+        {
+            "id": 0,
+            "key": "basic",
+            "value": "基础",
+            "description": "测试用。。。"
+        }
+    ],
+    "type_list": [
+        {
+            "key": "chinese",
+            "group_key": "education",
+            "id": 0,
+            "value": "语文",
+            "description": ""
+        },
+        {
+            "key": "math",
+            "group_key": "education",
+            "id": 0,
+            "value": "数学",
+            "description": ""
+        },
+        {
+            "key": "english",
+            "group_key": "education",
+            "id": 0,
+            "value": "英语",
+            "description": ""
+        },
+        {
+            "key": "physics",
+            "group_key": "education",
+            "id": 0,
+            "value": "物理",
+            "description": ""
+        },
+        {
+            "key": "chemistry",
+            "group_key": "education",
+            "id": 0,
+            "value": "化学",
+            "description": ""
+        },
+        {
+            "key": "biology",
+            "group_key": "education",
+            "id": 0,
+            "value": "生物",
+            "description": ""
+        },
+        {
+            "key": "geography",
+            "group_key": "education",
+            "id": 0,
+            "value": "地理",
+            "description": ""
+        },
+        {
+            "key": "history",
+            "group_key": "education",
+            "id": 0,
+            "value": "历史",
+            "description": ""
+        },
+        {
+            "key": "arts",
+            "group_key": "education",
+            "id": 0,
+            "value": "美术",
+            "description": ""
+        },
+        {
+            "key": "sports",
+            "group_key": "education",
+            "id": 0,
+            "value": "体育",
+            "description": ""
+        }
+    ]
+}

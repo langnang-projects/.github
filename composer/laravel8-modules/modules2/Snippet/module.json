@@ -1,0 +1,13 @@
+{
+    "name": "Snippet",
+    "alias": "snippet",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Snippet\\Providers\\SnippetServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

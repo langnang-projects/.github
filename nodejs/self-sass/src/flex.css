@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+}
+
+.flex\:inline {
+  display: inline-flex;
+}
+.flex\:justify-center, .flex\:center {
+  justify-content: center;
+}
+.flex\:align-center, .flex\:center {
+  align-items: center;
+}
+.flex\:grow-1 {
+  flex-grow: 1 !important;
+}/*# sourceMappingURL=flex.css.map */

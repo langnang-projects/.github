@@ -1,0 +1,80 @@
+{
+    "_user": {
+        "name": "",
+        "email": "",
+        "password": "",
+        "roles": [],
+        "premissions": []
+    },
+    "_meta": {
+        "slug": "",
+        "name": "",
+        "ico": "",
+        "description": "",
+        "type": "",
+        "status": ""
+    },
+    "_content": {
+        "slug": "",
+        "title": "",
+        "ico": "",
+        "description": "",
+        "text": "",
+        "type": "",
+        "status": ""
+    },
+    "_link": {
+        "slug": "",
+        "title": "",
+        "ico": "",
+        "url": "",
+        "keywords": "",
+        "description": "",
+        "type": "site",
+        "status": "public"
+    },
+    "_option": {
+        "name": "",
+        "user": 0,
+        "type": "",
+        "value": ""
+    },
+    "metas[type=module&status=public]": [
+        {
+            "slug": "module:application",
+            "name": "Module:Application",
+            "ico": "",
+            "description": ""
+        },
+        {
+            "slug": "module:awesome",
+            "name": "Module:Awesome",
+            "ico": "",
+            "description": ""
+        },
+        {
+            "slug": "",
+            "name": "",
+            "ico": "",
+            "description": "",
+            "type": "",
+            "status": ""
+        },
+        {
+            "slug": "",
+            "name": "",
+            "ico": "",
+            "description": "",
+            "type": "",
+            "status": ""
+        },
+        {
+            "slug": "",
+            "name": "",
+            "ico": "",
+            "description": "",
+            "type": "",
+            "status": ""
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Project",
+    "alias": "project",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Project\\Providers\\ProjectServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": {
+        "Business": "*",
+        "Demand": "*",
+        "Design": "*",
+        "Develop": "*",
+        "Issue": "*",
+        "Plan": "*",
+        "Snippet": "*",
+        "Test": "*"
+    },
+    "moduleDependencies": {}
+}

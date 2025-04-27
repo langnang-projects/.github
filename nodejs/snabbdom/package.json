@@ -1,0 +1,37 @@
+{
+  "name": "@langnang/simple-snabbdom",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langnang/simple-snabbdom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/langnang/simple-snabbdom/issues"
+  },
+  "homepage": "https://github.com/langnang/simple-snabbdom#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "snabbdom": "^2.1.0",
+    "terser-webpack-plugin": "4",
+    "webpack": "4.29.6",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

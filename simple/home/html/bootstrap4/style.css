@@ -1,0 +1,65 @@
+[data-toggle="collapse"] .bi {
+  transition: transform .35s ease;
+}
+
+[data-toggle="collapse"]:not(.collapsed) .bi {
+  transform: rotate(90deg);
+}
+
+.dot {
+  height: .5rem;
+  width: .5rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: currentcolor;
+  line-height: 1;
+}
+
+.glider {
+  position: absolute;
+  display: flex;
+  top: 3px;
+  height: 34px;
+  width: 100px;
+  background-color: #1e80ff;
+  z-index: 1;
+  border-radius: 99px;
+  transition: 0.25s ease-out;
+}
+
+.nav-link {
+  z-index: 2;
+  width: 100px;
+}
+
+.nav-link.active {
+  background-color: transparent !important;
+}
+
+.nav-link.active:nth-child(1)~.glider {
+  transform: translateX(0);
+}
+
+.nav-link.active:nth-child(2)~.glider {
+  transform: translateX(100%);
+}
+
+.nav-link.active:nth-child(3)~.glider {
+  transform: translateX(200%);
+}
+
+.nav-link.active:nth-child(4)~.glider {
+  transform: translateX(300%);
+}
+
+.nav-link.active:nth-child(5)~.glider {
+  transform: translateX(400%);
+}
+
+.nav-link.active:nth-child(6)~.glider {
+  transform: translateX(500%);
+}
+
+.nav-link.active:nth-child(7)~.glider {
+  transform: translateX(600%);
+}

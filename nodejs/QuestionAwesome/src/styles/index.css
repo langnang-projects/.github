@@ -1,0 +1,218 @@
+.el-form-item {
+  margin-bottom: 25px;
+}
+
+.el-form-item__label {
+  color: #e2e8f0;
+  float: none;
+  line-height: 20px;
+}
+
+.el-form-item__content {
+  line-height: 25px;
+}
+.el-form-item__content p {
+  line-height: 16px;
+  margin: 4px 0;
+}
+
+.el-input__inner {
+  height: 28px;
+  line-height: 28px;
+}
+
+.el-radio {
+  color: #e2e8f0;
+}
+
+.el-checkbox {
+  color: #e2e8f0;
+}
+
+.el-select {
+  display: block;
+}
+
+.el-table {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+.el-table th,
+.el-table tr,
+.el-table td {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #9f7aea;
+  color: #e2e8f0;
+}
+
+.el-tabs--border-card {
+  background-color: #1a202c;
+  border: 0;
+}
+.el-tabs--border-card .el-tabs__header {
+  background-color: #1a202c;
+  border-bottom: 0;
+}
+.el-tabs__nav-wrap::after {
+  background-color: unset;
+}
+
+.el-tabs__active-bar {
+  background-color: #9f7aea;
+}
+
+.el-tabs--bottom .el-tabs__item.is-bottom:nth-child(2),
+.el-tabs--bottom .el-tabs__item.is-top:nth-child(2),
+.el-tabs--top .el-tabs__item.is-bottom:nth-child(2),
+.el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+  padding-left: 0;
+}
+
+.el-tabs--bottom .el-tabs__item.is-bottom:last-child,
+.el-tabs--bottom .el-tabs__item.is-top:last-child,
+.el-tabs--top .el-tabs__item.is-bottom:last-child,
+.el-tabs--top .el-tabs__item.is-top:last-child {
+  padding-right: 0;
+}
+
+.el-tabs__nav {
+  width: 80%;
+}
+
+.el-tabs__item {
+  width: 25%;
+  height: 54px;
+  font-size: 16px;
+  line-height: 54px;
+  color: #e2e8f0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0;
+}
+.el-tabs__item:hover {
+  background-color: #9f7aea;
+  color: #e2e8f0;
+}
+.el-tabs__item.is-active {
+  color: #9f7aea;
+}
+.el-tabs__item.is-active:hover {
+  color: #e2e8f0;
+}
+
+.el-badge__content.is-fixed {
+  top: 10px;
+  right: 0;
+}
+
+.theme-dark .v-note-mode-edit.v-note-wrapper .v-note-panel .v-note-edit {
+  flex: unset;
+  width: 100%;
+  overflow: hidden;
+}
+.theme-dark .v-note-mode-edit.v-note-wrapper .v-note-panel .v-note-show {
+  display: none;
+}
+.theme-dark .v-note-mode-show.v-note-wrapper .v-note-op {
+  display: none;
+}
+.theme-dark .v-note-mode-show.v-note-wrapper .v-note-panel .v-note-edit {
+  display: none;
+}
+.theme-dark .v-note-mode-show.v-note-wrapper .v-note-panel .v-note-show {
+  flex: unset;
+  width: 100%;
+}
+.theme-dark .v-note-mode-show.v-note-wrapper .v-note-panel .v-note-show .v-show-content {
+  background-color: #1a202c !important;
+}
+.theme-dark .markdown-body {
+  color: #e2e8f0;
+}
+.theme-dark .v-note-wrapper {
+  min-width: unset;
+  min-height: unset;
+  background-color: #1a202c;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d3748;
+  border: 1px solid #1a202c;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1a202c;
+}
+
+.theme-dark {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+.main-header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.main-header .el-button {
+  float: right;
+}
+.main-header .el-button + .el-button {
+  margin-right: 1rem;
+}
+
+.main-wrapper .el-card + .el-card {
+  margin-top: 1rem;
+}
+.main-wrapper .el-card .el-card__body {
+  padding: 10px;
+}
+
+.theme-dark .el-button--default {
+  color: #def2f7;
+  background-color: #2d3748;
+  border-color: #2d3748;
+}
+.theme-dark .el-button--default:hover, .theme-dark .el-button--default:focus, .theme-dark .el-button--default:active {
+  background-color: #4a5568;
+  color: #def2f7;
+}
+.theme-dark .el-card {
+  background-color: #1a202c;
+  color: #def2f7;
+  border-color: #1a202c;
+}
+.theme-dark .el-card .el-card__header {
+  border-color: #1a202c;
+}
+
+[class^=view-] {
+  min-height: calc(100vh - 320px);
+}
+[class^=view-].flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */

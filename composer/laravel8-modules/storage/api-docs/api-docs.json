@@ -1,0 +1,266 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/projects": {
+            "get": {
+                "operationId": "364be0644706ef9533932ae0ee8ac29d",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/insert_content_item": {
+            "post": {
+                "operationId": "96386a01ee75afe0cebcdce2ba5c31cc",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/insert_content_list": {
+            "post": {
+                "operationId": "3dce43ead17ac14894d1e76da26db5e7",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/delete_content_item": {
+            "post": {
+                "operationId": "dbaf476345853ec6a487f3f3ed30a94b",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/delete_content_list": {
+            "post": {
+                "operationId": "ac6ffb2eb394f2950dd7e40f1badb323",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/update_content_item": {
+            "post": {
+                "operationId": "81256cf0377554951511dd63f8f9fbae",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/update_content_list": {
+            "post": {
+                "operationId": "96c4cdd3e85f4853ec8e08ed615fdbb5",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/select_content_item": {
+            "post": {
+                "operationId": "9583b368391365af56302057356eefde",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/select_random_content_item": {
+            "post": {
+                "summary": "Summary of select_random_content_item",
+                "operationId": "60f11f3876a42360f039db184b7eed78",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/select_content_list": {
+            "post": {
+                "operationId": "a607440e9642ea402df4bea3c2baf49d",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/select_content_page": {
+            "post": {
+                "summary": "Summary of select_content_page",
+                "operationId": "b9437d411a1c07cdac62531c5009a5c4",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/select_content_tree": {
+            "post": {
+                "operationId": "a2e5a83b0b95b88d0c5dec03bc98c93f",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/select_content_count": {
+            "post": {
+                "summary": "Summary of select_content_count",
+                "operationId": "72a7e0afe3630294a89786a8c06dc0f8",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/upsert_content_item": {
+            "post": {
+                "operationId": "5de6badd8d069926d84fad780131f726",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/upsert_content_list": {
+            "post": {
+                "operationId": "40491f2629c494acd3614c5ab6cf1b39",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/increase_content_item": {
+            "post": {
+                "summary": "Summary of increase_content_item",
+                "operationId": "669c3ce0e81f74cd7d081a91ceb2274a",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/decrease_content_item": {
+            "post": {
+                "summary": "Summary of decrease_content_item",
+                "operationId": "88e9d6c3574929cd98710e3411cb3af1",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/import_content": {
+            "post": {
+                "summary": "Summary of import_content",
+                "operationId": "5aafe9c644b55b3ada3dbc76087f126b",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/export_content": {
+            "post": {
+                "summary": "Summary of export_content",
+                "operationId": "da730dcc4e7d81c8cb96cf8445612bc3",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/staging_content_item": {
+            "post": {
+                "summary": "Summary of staging_content_item",
+                "operationId": "28878ce9a40d0496dcecee4850f5f109",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/release_content_item": {
+            "post": {
+                "summary": "Summary of release_content_item",
+                "operationId": "3dc25b0cc49fd4458094ce68fec962c4",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/release_content_list": {
+            "post": {
+                "summary": "Summary of release_content_list",
+                "operationId": "050dfe4d28c5710025895a72d8439abd",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/faker_content_item": {
+            "post": {
+                "summary": "Summary of faker_content_item",
+                "operationId": "9adebe0c8b686716231a59ef98be004d",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/faker_content_list": {
+            "post": {
+                "summary": "Summary of faker_content_list",
+                "operationId": "831c4fd64a36008b2b5f10867b5b86d7",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Content"
+        }
+    ]
+}

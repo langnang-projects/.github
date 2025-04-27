@@ -1,0 +1,7 @@
+<?
+
+namespace Langnang;
+
+class PhpSpiderConfigController
+{
+}

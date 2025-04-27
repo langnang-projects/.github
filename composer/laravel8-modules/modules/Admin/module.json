@@ -1,0 +1,17 @@
+{
+    "name": "Admin",
+    "alias": "admin",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Admin\\Providers\\AdminServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "modules": {
+        "Admin": "master"
+    },
+    "dependencies": {}
+}

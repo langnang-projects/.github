@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+}
+
+.flex\: {
+    &inline {
+        display: inline-flex;
+    }
+
+    &justify-center,
+    &center {
+        justify-content: center;
+
+    }
+
+    &align-center,
+    &center {
+        align-items: center;
+    }
+
+    &grow-1 {
+        flex-grow: 1 !important;
+    }
+}

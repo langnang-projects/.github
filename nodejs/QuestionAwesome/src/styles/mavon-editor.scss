@@ -1,0 +1,76 @@
+.theme-dark {
+
+    // 编辑器模式
+    .v-note-mode-edit.v-note-wrapper {
+        .v-note-op {}
+
+        .v-note-panel {
+            .v-note-edit {
+                flex: unset;
+                width: 100%;
+                overflow: hidden;
+            }
+
+            .v-note-show {
+                display: none;
+
+            }
+        }
+    }
+
+    // 视图模式
+    .v-note-mode-show.v-note-wrapper {
+
+        .v-note-op {
+            display: none;
+        }
+
+        .v-note-panel {
+            .v-note-edit {
+                display: none;
+            }
+
+            .v-note-show {
+                flex: unset;
+                width: 100%;
+
+                .v-show-content {
+                    background-color: $dark !important;
+                }
+
+            }
+        }
+    }
+
+    // 预览模式
+    .v-note-mode-preview {}
+
+
+    .markdown-body {
+        color: $white;
+    }
+
+
+
+    .v-note-wrapper {
+        min-width: unset;
+        min-height: unset;
+        background-color: $dark;
+
+        .v-note-op {
+            // background-color: $dark !important;
+
+            .v-left-item,
+            .v-right-item {
+                .op-icon {
+                    // color: $white;
+
+                }
+            }
+
+        }
+    }
+
+
+
+}

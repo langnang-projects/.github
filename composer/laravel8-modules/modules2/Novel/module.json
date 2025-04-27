@@ -1,0 +1,13 @@
+{
+    "name": "Novel",
+    "alias": "novel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Novel\\Providers\\NovelServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

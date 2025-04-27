@@ -1,0 +1,19 @@
+{
+  "name": "langnang/phpspider",
+  "version": "0.0.0.1",
+  "authors": [
+    {
+      "name": "langnang",
+      "email": "langnang.chen@outlook.com"
+    }
+  ],
+  "require": {
+    "owner888/phpspider": "^2.1",
+    "doctrine/dbal": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Langnang\\": "src/"
+    }
+  }
+}

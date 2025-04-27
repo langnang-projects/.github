@@ -1,0 +1,13 @@
+{
+    "name": "WebHunt",
+    "alias": "webhunt",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\WebHunt\\Providers\\WebHuntServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

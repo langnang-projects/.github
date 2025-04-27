@@ -1,0 +1,22 @@
+{
+  "active": "http://langnang.byethost7.com",
+  "frames": [
+    {
+      "title": "",
+      "type": "group",
+      "children": [
+        { "title": "langnang.byethost7.com", "url": "http://langnang.byethost7.com", "type": "site" },
+        { "title": "b7-34048879.22web.org", "url": "http://b7-34048879.22web.org", "type": "site", "visible": false },
+        { "title": "skycaiji.22web.org", "url": "http://skycaiji.22web.org", "type": "site" },
+        { "title": "webftp.22web.org", "url": "http://webftp.22web.org", "type": "site" },
+        { "title": "soft-installer.22web.org", "url": "http://soft-installer.22web.org", "type": "site" },
+        { "title": "onedrive-video.22web.org", "url": "http://onedrive-video.22web.org", "type": "site" },
+        { "title": "onedrive-image.22web.org", "url": "http://onedrive-image.22web.org", "type": "site" },
+        { "title": "onedrive-private.22web.org", "url": "http://onedrive-private.22web.org", "type": "site" },
+        { "title": "onedrive-share.22web.org", "url": "http://onedrive-share.22web.org", "type": "site" },
+        { "title": "typecho.22web.org", "url": "http://typecho.22web.org", "type": "site" },
+        { "title": "typecho.10001mb.com", "url": "http://typecho.10001mb.com", "type": "site" }
+      ]
+    }
+  ]
+}

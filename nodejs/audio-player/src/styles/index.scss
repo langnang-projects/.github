@@ -1,0 +1,50 @@
+@import "element";
+
+
+.el-loading-mask {
+  background-color: #313237;
+}
+
+.el-loading-spinner .path {
+  stroke: #7f6ce9;
+}
+
+
+
+.audio-player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.audio-player .audio-controls {
+  background-color: #313237;
+  padding: 3px 10px;
+}
+
+[class^="audio-controls"] svg path {
+  fill: #7f6ce9;
+}
+
+.audio-player .audio-controls .audio-controls__progress .audio-controls__progress-outer,
+.audio-player .audio-controls .audio-controls__volume .audio-controls__volume-outer {
+  background-color: #222327;
+}
+
+.audio-player .audio-controls .audio-controls__progress .audio-controls__progress-inner,
+.audio-player .audio-controls .audio-controls__progress .audio-controls__progress-point,
+.audio-player .audio-controls .audio-controls__volume .audio-controls__volume-inner,
+.audio-player .audio-controls .audio-controls__volume .audio-controls__volume-point {
+  background-color: #7f6ce9;
+}
+
+.audio-controls__time {
+  color: #606266;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "admin/302.phpspider",
+  "autoload": {
+    "psr-4": {
+      "phpspider\\": "phpspider/"
+    }
+  },
+  "authors": [
+    {
+      "name": "langnang",
+      "email": "langnang.chen@outlook.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "symfony/var-dumper": "^5.4",
+    "doctrine/dbal": "^3.3"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_content": {},
+  "_meta": {},
+  "dependency_contents": [
+    {
+      "name": "normalize.css",
+      "mainfile": "normalize.css",
+      "version": "8.0.1",
+      "type": "css",
+      "status": "publish"
+    },
+    {
+      "name": "jquery"
+    },
+    {
+      "name": "bootstrap"
+    },
+    {
+      "name": "react"
+    },
+    {
+      "name": "vue"
+    },
+    {
+      "name": "bootstrap-icons",
+      "version": "1.11.3",
+      "mainfile": "fonts/bootstrap-icons.min.css"
+    },
+    {
+      "name": "three"
+    }
+  ],
+  "dependency_metas": [],
+  "dependency_metas[type:tag]": [],
+  "dependency_metas[type:category]": []
+}

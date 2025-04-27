@@ -1,0 +1,12 @@
+{
+    "name": "admin/novel-reader",
+    "authors": [
+        {
+            "name": "langnang",
+            "email": "langnang.chen@outlook.com"
+        }
+    ],
+    "require": {
+        "owner888/phpspider": "^2.1"
+    }
+}

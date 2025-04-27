@@ -1,0 +1,40 @@
+.bilibili-anime--timeline__wrapper {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+
+  .ant-row {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    width: 1200px;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+      /*ChromeSafari*/
+    }
+
+    .ant-col {
+      opacity: 0.6;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+
+  .anticon-left,
+  .anticon-right {
+    position: absolute;
+    top: 24px;
+    font-size: 96px;
+  }
+
+  .anticon-left {
+    left: -38px;
+  }
+
+  .anticon-right {
+    right: -38px;
+  }
+}

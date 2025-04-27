@@ -1,0 +1,25 @@
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+.phpunit.result.cache
+
+# modules_statuses.json
+
+# /app
+# /bootstrap
+# /config
+# /database
+# /public
+# /resources
+# /routes
+# /storage
+# /tests
+# .editorconfig
+# .env.example
+# .styleci.yml
+# artisan
+# index.php
+# phpunit.xml
+# .htaccess

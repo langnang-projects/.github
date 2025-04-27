@@ -1,0 +1,13 @@
+{
+    "name": "WebNav",
+    "alias": "webnav",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\WebNav\\Providers\\WebNavServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

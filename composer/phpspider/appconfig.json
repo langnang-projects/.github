@@ -1,0 +1,38 @@
+{
+  "tables": {
+    "metas": [],
+    "contents": [
+      {
+        "name": "cid"
+      }
+    ],
+    "fields": [],
+    "comments": [],
+    "relationships": [],
+    "options": []
+  },
+  "data": {
+    "_meta": { "mid": 0, "slug": "", "ico": "", "name": "", "type": "", "status": "", "description": "", "parent": 0, "order": 0, "count": 0 },
+    "_content": { "cid": 0, "slug": "", "ico": "", "title": "", "type": "", "status": "", "text": "", "parent": 0, "order": 0, "count": 0 },
+    "_link": { "lid": 0, "slug": "", "ico": "", "title": "", "url": "", "description": "", "parent": 0, "order": 0, "count": 0 },
+    "_relationship": { "mid": 0, "cid": 0, "lid": 0 },
+    "metas": [
+      { "mid": 1, "slug": "text", "ico": "", "name": "文本类", "type": "category", "status": "", "description": "", "parent": 0, "order": 0, "count": 0 },
+      { "mid": 11, "slug": "text-news", "ico": "", "name": "资讯", "type": "category", "status": "", "description": "", "parent": 1, "order": 0, "count": 0 },
+      { "mid": 12, "slug": "text-novel", "ico": "", "name": "小说", "type": "category", "status": "", "description": "", "parent": 1, "order": 0, "count": 0 },
+      { "mid": 2, "slug": "image", "ico": "", "name": "图片类", "type": "category", "status": "", "description": "", "parent": 0, "order": 0, "count": 0 },
+      { "mid": 3, "slug": "audio", "ico": "", "name": "音频类", "type": "category", "status": "", "description": "", "parent": 0, "order": 0, "count": 0 },
+      { "mid": 4, "slug": "video", "ico": "", "name": "视频类", "type": "category", "status": "", "description": "", "parent": 0, "order": 0, "count": 0 },
+      { "mid": 4, "slug": "file", "ico": "", "name": "文件类", "type": "category", "status": "", "description": "", "parent": 0, "order": 0, "count": 0 },
+      { "mid": 5, "slug": "other", "ico": "", "name": "其它类", "type": "category", "status": "", "description": "", "parent": 0, "order": 0, "count": 0 }
+    ],
+    "contents": [
+      { "cid": 0, "slug": "", "ico": "", "title": "豆瓣电影", "type": "", "status": "", "text": "", "parent": 0, "order": 0, "count": 0 },
+      { "cid": 0, "slug": "", "ico": "", "title": "起点中文网", "type": "", "status": "", "text": "", "parent": 0, "order": 0, "count": 0 },
+      { "cid": 0, "slug": "", "ico": "", "title": "BiliBili", "type": "", "status": "", "text": "", "parent": 0, "order": 0, "count": 0 }
+    ],
+    "links": [],
+    "relationships": [{}]
+  },
+  "config": {}
+}

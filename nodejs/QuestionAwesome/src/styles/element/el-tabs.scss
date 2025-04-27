@@ -1,0 +1,70 @@
+.el-tabs--border-card {
+    background-color: #1a202c;
+    border: 0;
+
+    .el-tabs__header {
+        background-color: #1a202c;
+        border-bottom: 0;
+    }
+
+    .el-tabs__item {}
+}
+
+.el-tabs__nav-wrap::after {
+    background-color: unset;
+}
+
+.el-tabs__active-bar {
+    background-color: $violet;
+    // display: none;
+
+}
+
+.el-tabs--bottom .el-tabs__item.is-bottom:nth-child(2),
+.el-tabs--bottom .el-tabs__item.is-top:nth-child(2),
+.el-tabs--top .el-tabs__item.is-bottom:nth-child(2),
+.el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+    padding-left: 0;
+}
+
+.el-tabs--bottom .el-tabs__item.is-bottom:last-child,
+.el-tabs--bottom .el-tabs__item.is-top:last-child,
+.el-tabs--top .el-tabs__item.is-bottom:last-child,
+.el-tabs--top .el-tabs__item.is-top:last-child {
+    padding-right: 0;
+}
+
+.el-tabs__nav {
+    width: 80%;
+}
+
+.el-tabs__item {
+    width: 25%;
+    height: 54px;
+    font-size: 16px;
+    line-height: 54px;
+    color: $white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0;
+
+    &:hover {
+        background-color: $violet;
+        color: $white;
+    }
+
+    &.is-active {
+        color: $violet;
+
+        &:hover {
+            color: $white;
+
+        }
+    }
+}
+
+
+.el-badge__content.is-fixed {
+    top: 10px;
+    right: 0;
+}
