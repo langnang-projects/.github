@@ -1,0 +1,52 @@
+name: 🚀 Deploy onemanager(composer) on push with FTP
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "composer/onemanager/**"
+
+jobs:
+  deploy:
+    name: 🎉 Deploy to langnang.byethost14.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install node dependencies
+      #   run: cd nodejs/vue2-ui && yarn install
+
+      # - name: Build pages
+      #   run: cd nodejs/vue2-ui && npm run build
+
+      - name: Install composer dependencies
+        run: |
+          cd composer/onemanager 
+          composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b14_37610952
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./composer/onemanager/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/projects/composer/onemanager/
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**

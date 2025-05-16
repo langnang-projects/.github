@@ -1,0 +1,224 @@
+name: 🚀 Deploy composer directory on push with FTP
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "composer/**"
+
+jobs:
+  deploy_phpspider:
+    name: 🎉 Deploy phpspider to langnang.byethost32.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install && Build
+      #   run: |
+      #     cd nodejs/vue2-element-ui
+      #     yarn install
+      #     npm run build
+
+      - name: Install composer dependencies
+        run: |
+          cd composer/phpbadge
+          composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b32_28202196
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./composer/phpspider/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/projects/composer/phpspider/
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**
+
+  deploy_phpbadge:
+    name: 🎉 Deploy phpbadge to langnang.byethost32.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install && Build
+      #   run: |
+      #     cd nodejs/vue2-element-ui
+      #     yarn install
+      #     npm run build
+
+      - name: Install composer dependencies
+        run: |
+          cd composer/phpbadge
+          composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b32_28202196
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./composer/phpbadge/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/projects/composer/phpbadge/
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**
+
+  deploy_2023_phpspider:
+    name: 🎉 Deploy 2023-phpspider to langnang.byethost32.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install && Build
+      #   run: |
+      #     cd nodejs/vue2-element-ui
+      #     yarn install
+      #     npm run build
+
+      - name: Install composer dependencies
+        run: |
+          cd composer/2023-phpspider
+          composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b32_28202196
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./composer/2023-phpspider
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/projects/composer/2023-phpspider
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**
+
+  deploy_novel_reader:
+    name: 🎉 Deploy novel-reader to langnang.byethost32.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install && Build
+      #   run: |
+      #     cd nodejs/vue2-element-ui
+      #     yarn install
+      #     npm run build
+
+      - name: Install composer dependencies
+        run: |
+          cd composer/novel-reader
+          composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b32_28202196
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./composer/novel-reader/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/projects/composer/novel-reader/
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**
+
+  deploy_onecrawler:
+    name: 🎉 Deploy onecrawler to langnang.byethost32.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install && Build
+      #   run: |
+      #     cd nodejs/vue2-element-ui
+      #     yarn install
+      #     npm run build
+
+      - name: Install composer dependencies
+        run: |
+          cd composer/phpbadge
+          composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b32_28202196
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./composer/onecrawler/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/projects/composer/onecrawler/
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**

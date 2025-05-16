@@ -1,0 +1,50 @@
+name: 🚀 Deploy b7_34048879 on push with FTP
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "projects/b7_34048879/html/bootstrap4/**"
+
+jobs:
+  deploy:
+    name: 🎉 Deploy to b7-34048879.22web.org
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install node dependencies
+      #   run: cd 200.vue2-ui && yarn install
+
+      # - name: Build pages
+      #   run: cd 200.vue2-ui && npm run build
+
+      # - name: Install composer dependencies
+      #   run: composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b7_34048879
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./projects/b7_34048879/html/bootstrap4/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /b7-34048879.22web.org/htdocs/
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**

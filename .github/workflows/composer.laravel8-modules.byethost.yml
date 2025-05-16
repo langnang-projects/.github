@@ -1,0 +1,51 @@
+name: 🚀 Deploy laravel8-modules(composer) on push with FTP
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "composer/laravel8-modules/**"
+
+jobs:
+  deploy:
+    name: 🎉 Deploy to langnang.byethost11.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      # - name: Use Node.js 14.x
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 14.x
+
+      # - name: Install node dependencies
+      #   run: cd nodejs/vue2-ui && yarn install
+
+      # - name: Build pages
+      #   run: cd nodejs/vue2-ui && npm run build
+
+      - name: Install composer dependencies
+        run: cd composer/laravel8-modules && composer install
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          # ftp server
+          server: ftpupload.net
+          # ftp username
+          username: b11_37611028
+          # ftp password
+          password: ${{ secrets.ftp_password }}
+          # local dir
+          local-dir: ./composer/laravel8-modules/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /htdocs/
+          # File to Exclude
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github*/**
+            **/node_modules/**
+            **/modules2/**
