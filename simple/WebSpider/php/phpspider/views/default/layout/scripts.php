@@ -1,1 +1,0 @@
-<script crossorigin="anonymous" src="https://unpkg.com/requirejs@2.3.7/require.js" data-main="/storage/js/requirejs.config.js?title=WebSpider&loading=false"></script>
